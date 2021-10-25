@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Move : MonoBehaviour
 {
+    public ScoreManager scoreManager;
+
     public Camera cam;
     public GameObject Respawn;
     public GameObject Finish;
@@ -34,6 +36,7 @@ public class Move : MonoBehaviour
             if (Input.GetButtonDown("Jump") && jump == false)
             {
                 jump = true;
+                scoreManager.score++;
                 rb.AddForce(Vector3.up * jumpHeight);
             }  
         }              
@@ -59,7 +62,7 @@ public class Move : MonoBehaviour
         }
         if (collision.collider.tag.Equals("End"))
         {
-            finished = true;
+            SceneManager.LoadScene("Win");
         }
     }
     private void OnCollisionExit(Collision collision)
