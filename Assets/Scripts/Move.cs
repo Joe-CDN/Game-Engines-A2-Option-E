@@ -60,6 +60,7 @@ public class Move : MonoBehaviour
         if (collision.collider.tag.Equals("End"))
         {
             finished = true;
+            //rb.transform.position = Finish.transform.position;
         }
     }
     private void OnCollisionExit(Collision collision)
