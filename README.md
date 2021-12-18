@@ -5,6 +5,7 @@ secondly I used this video as a refrence for some things related to implementing
 https://www.youtube.com/watch?v=y1Ly91N2BoU
 I also used 2 royality free sound effects for a gun and for a duck quacking from 
  http://www.freesoundslibrary.com
+ https://www.videvo.net/sound-effect/gun-shot-single-shot-in-pe1098109/246346/
  I also downloaded multiple images of duck hunt for nes's backgrounds and characters although most ended up being unused.
 http://www.mariomayhem.com/downloads/sprites/duck_hunt_nes_sprites.php
 https://www.pinclipart.com/pindetail/xbTxTR_rik-duck-hunt-nintendo-sprite-clipart/
